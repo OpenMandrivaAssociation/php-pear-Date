@@ -80,7 +80,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/{tests,doc/TODO}
+%doc %{_pearname}-%{version}/{tests,docs/TODO}
 %dir %{_datadir}/pear/%{_class}
 %{_datadir}/pear/*.php
 %{_datadir}/pear/%{_class}/*.php
