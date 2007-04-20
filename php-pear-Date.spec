@@ -2,13 +2,15 @@
 %define		_status		stable
 %define		_pearname	%{_class}
 
+%define		_requires_exceptions pear(PHPUnit.php)
+
 Summary:	%{_pearname} - date and time zone classes
 Name:		php-pear-%{_pearname}
-Version:	1.4.6
+Version:	1.4.7
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Date/
 Requires(post): php-pear
 Requires(preun): php-pear
@@ -78,10 +80,8 @@ rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/{tests,TODO}
+%doc %{_pearname}-%{version}/{tests,doc/TODO}
 %dir %{_datadir}/pear/%{_class}
 %{_datadir}/pear/*.php
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
