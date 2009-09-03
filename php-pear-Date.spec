@@ -7,7 +7,7 @@
 Summary:	%{_pearname} - date and time zone classes
 Name:		php-pear-%{_pearname}
 Version:	1.4.7
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
