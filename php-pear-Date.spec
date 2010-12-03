@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.4.7
-Release:	%mkrel 6
+Release:	%mkrel 7
 Summary:	Date and time zone classes
 License:	PHP License
 Group:		Development/PHP
