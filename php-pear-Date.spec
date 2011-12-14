@@ -44,6 +44,9 @@ rm -rf %{buildroot}%{_datadir}/pear/tests
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
+# cleanup
+rm -f %{buildroot}%{_datadir}/pear/data/Date/README
+
 %clean
 rm -rf %{buildroot}
 
