@@ -4,7 +4,7 @@
 %define		_requires_exceptions pear(PHPUnit.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	1.5.0a1
+Version:	1.5.0a2
 Release:	%mkrel 1
 Summary:	Date and time zone classes
 License:	PHP License
