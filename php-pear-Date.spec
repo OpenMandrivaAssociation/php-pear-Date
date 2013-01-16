@@ -1,8 +1,6 @@
 %define		_class		Date
 %define		upstream_name	%{_class}
 
-%define		_requires_exceptions pear(PHPUnit.php)
-
 Name:		php-pear-%{upstream_name}
 Version:	1.4.7
 Release:	%mkrel 9
