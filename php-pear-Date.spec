@@ -2,13 +2,13 @@
 %define		upstream_name	%{_class}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.4.7
-Release:	11
+Version:	1.5.0a3
+Release:	1
 Summary:	Date and time zone classes
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Date/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/Date-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -144,4 +144,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Sun Dec 28 2003 Pascal Terjan <pterjan@mandrake.org> 1.4-1mdk
 - First mdk package
+
 
