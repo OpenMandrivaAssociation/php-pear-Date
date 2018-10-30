@@ -4,7 +4,7 @@
 Summary:	Date and time zone classes
 Name:		php-pear-%{upstream_name}
 Version:	1.4.7
-Release:	19
+Release:	20
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Date/
