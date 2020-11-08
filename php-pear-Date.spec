@@ -43,4 +43,7 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 %{_datadir}/pear/%{_class}.php
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
-
+%{_datadir}/pear/buildPackageXML.php
+%{_datadir}/pear/data/Date/README
+%{_datadir}/pear/doc/*
+%{_datadir}/pear/test/Date/tests/*
