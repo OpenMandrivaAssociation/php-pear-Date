@@ -7,7 +7,7 @@ Version:	1.5.0a4
 Release:	2
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/Date/
+Url:		https://pear.php.net/package/Date/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
